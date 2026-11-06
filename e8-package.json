@@ -1,0 +1,9 @@
+{
+  "name": "consult-org-roam",
+  "description": "Org-roam's nodes, backlinks and forward links read with consult's preview, and notes in consult-buffer, after consult-org-roam.el",
+  "e8": "0.3.1",
+  "requires": {
+    "consult": "e8-editor/e8-consult@0.1.0",
+    "org-roam": "e8-editor/e8-org-roam@0.1.0"
+  }
+}
