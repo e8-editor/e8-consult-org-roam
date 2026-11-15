@@ -1,6 +1,13 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/e8-editor/e8/main/docs/assets/banner-ports-dark.png">
+  <img alt="E8 package ports" src="https://raw.githubusercontent.com/e8-editor/e8/main/docs/assets/banner-ports-light.png">
+</picture>
+
+Part of the [E8 package ports](https://github.com/e8-editor/e8#packages): Emacs packages ported to [E8](https://github.com/e8-editor/e8) and maintained with it. This is a port of [consult-org-roam](https://github.com/jgru/consult-org-roam) 0.1 by jgru. The design and the original code are theirs; the port keeps upstream's licence, the GNU General Public License version 3 or later.
+
 # e8-consult-org-roam
 
-Org-roam with consult, for [E8](https://github.com/e8-editor/e8): nodes are chosen with consult's live preview, a note's backlinks and forward links can be chosen among, and `consult-buffer` lists the notes open by their titles in a group of their own. A port of [consult-org-roam](https://github.com/jgru/consult-org-roam) 0.1.
+Org-roam with consult, for [E8](https://github.com/e8-editor/e8): nodes are chosen with consult's live preview, a note's backlinks and forward links can be chosen among, and `consult-buffer` lists the notes open by their titles in a group of their own.
 
 ## Installing
 
@@ -42,7 +49,7 @@ Variables:
 
 ## Credit
 
-This is a port to E8 of [consult-org-roam](https://github.com/jgru/consult-org-roam) 0.1, with its `consult-org-roam-buffer.el`, by jgru, copyright jgru, and distributed in MELPA, under the GNU General Public License version 3 or later. It is not the upstream authors' work as published, and they do not endorse it: report problems with the port here, not upstream.
+consult-org-roam 0.1, with its `consult-org-roam-buffer.el`, is copyright jgru and distributed in MELPA, under the GNU General Public License version 3 or later. This port is not the upstream authors' work as published, and they do not endorse it: report problems with the port here, not upstream.
 
 ## Developing
 
