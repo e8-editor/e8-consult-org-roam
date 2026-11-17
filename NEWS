@@ -1,0 +1,31 @@
+consult-org-roam NEWS -- history of user-visible changes.
+
+This is the news of e8-consult-org-roam, the E8 port of
+consult-org-roam.  'C-h P' shows it under the package's description.
+
+
+* Changes in consult-org-roam 0.1.0
+
+This is the first release, a port of consult-org-roam 0.1.  It needs
+E8 0.3.1 or newer, e8-consult and e8-org-roam.
+
+** 'consult-org-roam-mode' reads org-roam's nodes with a preview.
+'org-roam-node-find', 'org-roam-node-insert' and every other command
+that reads a node show each node in the window as it is moved to.
+
+** 'consult-buffer' lists the open notes by title, in a group.
+'n' and 'SPC' narrow to the group.  'consult-org-roam-buffer-enabled',
+'consult-org-roam-buffer-narrow-key' and
+'consult-org-roam-buffer-after-buffers' change it.
+
+** 'consult-org-roam-backlinks' chooses among the notes linking here.
+
+** 'consult-org-roam-forward-links' chooses among this note's links.
+
+** 'consult-org-roam-file-find' chooses among the file nodes.
+With 'C-u', it and the two commands above visit the node in another
+window.
+
+** 'consult-org-roam-search' searches the notes' text as you type.
+'consult-org-roam-grep-func' says whether with "consult-grep" or
+"consult-ripgrep".
