@@ -6,7 +6,7 @@ E8 ?= e8
 TESTS := $(wildcard test/*-tests.ts)
 # Packages the package requires, and those only its tests load, each
 # owner/repository@tag, cloned into .e8/deps for the tests and tsc.
-DEPS := e8-editor/e8-org-roam@v0.1.0 e8-editor/e8-consult@v0.1.0 e8-editor/e8-magit-section@v0.1.0 e8-editor/e8-vertico@v0.1.0
+DEPS := e8-editor/e8-org-roam@v0.1.1 e8-editor/e8-consult@v0.1.1 e8-editor/e8-magit-section@v0.2.0 e8-editor/e8-vertico@v0.1.0
 DEP_DIRS := $(foreach d,$(DEPS),.e8/deps/$(notdir $(firstword $(subst @, ,$(d)))))
 .PHONY: test types deps
 
